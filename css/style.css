@@ -227,7 +227,11 @@ span {
   margin-bottom: 100px;
 }
 .one-content {
-  width: 72%;
+  width: 100%;
+}
+.one-content-article{
+  padding-bottom: 50px;
+  border-bottom: 1px solid rgba(210, 210, 210, 1);
 }
 .one-content .card {
   width: 100%;
@@ -384,4 +388,79 @@ footer {
 .footer-bottom ul li{
   list-style: none;
   
+}
+.article-top{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+.article-top span{
+  color: rgba(94, 95, 97, 1);
+  margin-top: 8px;
+}
+.article-top-title{
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: rgba(0, 0, 0, 1);
+  font-weight: 600;
+  line-height: 46px;
+}
+.article-img{
+  width: 100%;
+  margin-bottom: 30px;
+}
+.content-p{
+  width: 100%;
+  color: rgba(0, 0, 0, 1);
+}
+.content-p p{
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 25px;
+}
+.article-cards{
+  width: 100%;
+  margin: 0px 0px 100px 0px;
+}
+.article-cards h1{
+  font-size: 28px;
+
+}
+.article-cards .cards-article{
+  display: flex;
+  justify-content: space-between;
+}
+.article-cards .cards-article .card{
+  width: 450px;
+  padding: 20px;
+  background: rgba(246, 246, 246, 1);
+  margin-top: 20px;
+}
+.article-cards .cards-article .card h2{
+  font-size: 20px;
+  padding: 0px 65px 10px 0px;
+  line-height: 25px;
+  font-weight: 500;
+  font-weight: bolder;
+
+}
+.article-cards .cards-article .card p{
+  font-size: 16px;
+  padding: 0px 70px 10px 0px;
+  line-height: 20px;
+  color: rgba(74, 75, 76, 1);
+
+}
+.article-cards .cards-article .card .articles-past{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.article-cards .cards-article .card .articles-past p{
+  margin-top: 10px;
+}
+.contact-body{
+  width: 100%;
+  height: 100vh;
 }
