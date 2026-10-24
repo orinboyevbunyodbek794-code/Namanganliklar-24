@@ -1,12 +1,12 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NAMANGANLIKLAR-24/contact</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body class="contact-body">
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="contact-body">
     <header>
       <div class="nav-top">
         <div class="container nav-top">
@@ -41,7 +41,9 @@
               <a href="index.html">УЗ</a>
               <a href="index.html.ru">РУ</a>
             </div>
-            <button class="navbar-button">Войти</button>
+            <a href="./contact.html">
+                <button class="navbar-button">Войти</button>
+            </a>
           </div>
         </div>
       </div>
@@ -84,8 +86,43 @@
     </header>
     <main>
       <div class="container">
-        <div class="main-content">
-          
+        <div class="contact-main-content">
+          <h2>Напишите нам</h2>
+          <div class="contact-group">
+            <div class="contact-group-one">
+              <form
+                class="contact-form"
+                method="post"
+                action="https://echo.htmlacademy.ru"
+              >
+                <div class="input-wrapper">
+                  <input type="text" placeholder="Номер телефона" required />
+                  <input
+                    type="email"
+                    placeholder="Электронная почта"
+                    required
+                  />
+                </div>
+                <input type="text" placeholder="Имя" required />
+                <textarea name="" id="" placeholder="Текст" required></textarea>
+                <button class="navbar-button contact-buttom">Отправить</button>
+              </form>
+            </div>
+            <div class="contact-group-two">
+                <div class="contact-two-wrapper">
+                    <h3>Электронная почта</h3>
+                    <p>info@namanganliklar24.uz</p>
+                </div>
+                <div class="contact-two-wrapper">
+                    <h3>Номер телефона</h3>
+                    <p>+998 88 522-54-76</p>
+                </div>
+                <div class="contact-two-wrapper">
+                    <h3>Адрес</h3>
+                    <p>Ташкент, площадь Мустакиллик, 6 </p>
+                </div>
+            </div>
+          </div>
         </div>
       </div>
     </main>
@@ -160,5 +197,5 @@
         </div>
       </div>
     </footer>
-</body>
+  </body>
 </html>

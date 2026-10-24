@@ -229,7 +229,7 @@ span {
 .one-content {
   width: 100%;
 }
-.one-content-article{
+.one-content-article {
   padding-bottom: 50px;
   border-bottom: 1px solid rgba(210, 210, 210, 1);
 }
@@ -327,12 +327,11 @@ footer {
   color: #fff;
 }
 .footer-content {
-  padding: 40px 100px 0px 100px ;
+  padding: 40px 100px 0px 100px;
 }
 .content-f {
   display: flex;
   margin-bottom: 30px;
-
 }
 .content-f .contnet-one {
   width: 300px;
@@ -359,108 +358,155 @@ footer {
   gap: 100px;
   margin-top: 40px;
 }
-.content-two ul li{
+.content-two ul li {
   list-style: none;
 }
-.content-two ul li a{
+.content-two ul li a {
   color: #fff;
   display: inline-block;
   margin-bottom: 20px;
   font-weight: 600;
 }
-.footer-bottom{
+.footer-bottom {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0px ;
+  padding: 20px 0px;
 }
-.footer-bottom h3{
+.footer-bottom h3 {
   width: 160px;
   font-weight: bolder;
   font-size: 18px;
 }
-.footer-bottom ul{
+.footer-bottom ul {
   display: flex;
   align-items: center;
   gap: 25px;
-
 }
-.footer-bottom ul li{
+.footer-bottom ul li {
   list-style: none;
-  
 }
-.article-top{
+.article-top {
   display: flex;
   align-items: center;
   gap: 15px;
   margin-bottom: 30px;
 }
-.article-top span{
+.article-top span {
   color: rgba(94, 95, 97, 1);
   margin-top: 8px;
 }
-.article-top-title{
+.article-top-title {
   font-size: 32px;
   margin-bottom: 20px;
   color: rgba(0, 0, 0, 1);
   font-weight: 600;
   line-height: 46px;
 }
-.article-img{
+.article-img {
   width: 100%;
   margin-bottom: 30px;
 }
-.content-p{
+.content-p {
   width: 100%;
   color: rgba(0, 0, 0, 1);
 }
-.content-p p{
+.content-p p {
   font-size: 20px;
   line-height: 30px;
   margin-bottom: 25px;
 }
-.article-cards{
+.article-cards {
   width: 100%;
   margin: 0px 0px 100px 0px;
 }
-.article-cards h1{
+.article-cards h1 {
   font-size: 28px;
-
 }
-.article-cards .cards-article{
+.article-cards .cards-article {
   display: flex;
   justify-content: space-between;
 }
-.article-cards .cards-article .card{
+.article-cards .cards-article .card {
   width: 450px;
   padding: 20px;
   background: rgba(246, 246, 246, 1);
   margin-top: 20px;
 }
-.article-cards .cards-article .card h2{
+.article-cards .cards-article .card h2 {
   font-size: 20px;
   padding: 0px 65px 10px 0px;
   line-height: 25px;
   font-weight: 500;
   font-weight: bolder;
-
 }
-.article-cards .cards-article .card p{
+.article-cards .cards-article .card p {
   font-size: 16px;
   padding: 0px 70px 10px 0px;
   line-height: 20px;
   color: rgba(74, 75, 76, 1);
-
 }
-.article-cards .cards-article .card .articles-past{
+.article-cards .cards-article .card .articles-past {
   display: flex;
   gap: 10px;
   align-items: center;
 }
-.article-cards .cards-article .card .articles-past p{
+.article-cards .cards-article .card .articles-past p {
   margin-top: 10px;
 }
-.contact-body{
+.contact-body {
   width: 100%;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.contact-main-content h2 {
+  color: rgba(0, 0, 0, 1);
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.contact-group {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0px;
+  gap: 20px;
+}
+.contact-form {
+  width: 900px;
+}
+.contact-form input,
+textarea {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 20px;
+}
+.input-wrapper {
+  display: flex;
+  gap: 10px;
+}
+textarea {
+  max-width: 900px;
+  min-height: 135px;
+}
+.contact-buttom {
+  margin-left: 795px;
+}
+.contact-group-two {
+  width: 100%;
+  height: 270px;
+  padding: 20px 25px;
+  background: rgba(246, 246, 246, 1);
+  border-radius: 20px;
+}
+.contact-two-wrapper:not(:last-child) {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(210, 210, 210, 1);
+}
+.contact-two-wrapper h3 {
+  margin-bottom: 8px;
 }
